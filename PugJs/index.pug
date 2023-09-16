@@ -1,0 +1,578 @@
+html(lang="ar" dir="rtl")
+    head
+        include ./links.pug
+    body
+        header 
+            div.container
+                .overlay
+                div.title-section
+                    h2
+                        |سمارت 
+                        span  موتورز 
+                    div.header-icon
+                        ul.phone-numbers
+                            li
+                                i.fa-solid.fa-phone
+                                |01110948994
+                            li
+                                i.fa-solid.fa-envelope
+                                |mohammedsalhyen@gmail.com
+                        .icon-small-screen
+                            i.fa-brands.fa-searchengin
+                            i.fa-solid.fa-bars
+                nav
+                    ul.nav-heading
+                        li 
+                            a(href="#") الرئيسية
+                        li 
+                            a(href="#ride-destination")  مميزاتنا
+                        li 
+                            a(href="#car-recomendation")  افضل الترشيحات
+                        li 
+                            a(href="#comprisation")  قارن بين سيارتين
+                        li 
+                            a(href="#car-gallary")  المعرض 
+                        li 
+                            a(href="#about-us")  عنا 
+                        li 
+                            a(href="#contact-info ")  التواصل
+                    ul.nav-icon 
+                        li 
+                            i.fa-brands.fa-searchengin
+                div.landing-text 
+                    h2 حان الوقت 
+                        span  لبيع 
+                        | و
+                        span  شراء 
+                        | سيارة جديدة
+                    p هذه هي أفضل منصة لبيع وشراء السيارات يمكنك من خلالها نشر إعلانات لسيارتك المستعملة ، وشراء سيارة جديدة ، وحتى استيراد أي سيارة يابانية إلى بلدك
+                div.search-container
+                    ul 
+                        li.active 
+                            a الكل 
+                        li 
+                            a جديد 
+                        li 
+                            a مستعمل 
+                    .row 
+                        .input-holder.col-6 
+                            i.fa-brands.fa-searchengin
+                            input(type="text" placeholder="بحث")
+                        .input-holder.col-3 
+                            select(name="model")
+                                option(value="2020") 2020
+                                option(value="2021") 2021
+                                option(value="2022") 2022
+                                option(value="2023") 2023
+                        .input-holder.col-3 
+                            select(name="brand")
+                                option(value="BMW") BMW
+                                option(value="VOLVO") VOLVO
+                                option(value="TOYOTA") TOYOTA
+                                option(value="MARCEDES") MARCEDES
+                    .row 
+                        .input-holder.col-4 
+                            i.fa-solid.fa-location-dot
+                            input(type="text" placeholder="الموقع")
+                        .input-holder.col-4  
+                            p متوسط السعر 
+                            input(type="range" min="300000" max="3000000")
+                        .input-holder.col-4 
+                            input(type="button" value="Search")
+        .defintion 
+            .container.d-flex.justify-content-between.align-items-center 
+                h3 ما نقدمه هو وسائل نقل فاخرة وتجربة مريحة بشكل استثنائي
+                p استفد من تجربة شراء سيارتك المثالية من خلال موقعنا الرائد في صناعة السيارات الفاخرة والمريحة. نقدم لك مجموعة واسعة من الخيارات الراقية والفخمة التي تناسب أذواقك واحتياجاتك. مع أسعارنا التنافسية والجودة العالية، نضمن لك تجربة شراء فاخرة ومميزة تلبي توقعاتك الأكثر تطلعًا. اكتشف معنا عالم الرفاهية على عجلات واحصل على سيارة أحلامك بكل سهولة وثقة من خلال موقعنا الموثوق
+            .call-center 
+                i.fa-solid.fa-headphones
+                p مركز المساعدة:01110948994  
+        .some-cars 
+            .container
+                .row 
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car1.png", alt="car1")
+                        .car-name 
+                            p Aston Martin DB11 AMRK
+                            ul.stars 
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car2.png", alt="car1")
+                        .car-name 
+                            p Mercedes C Class
+                            ul.stars 
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car3.png", alt="car1")
+                        .car-name 
+                            p Mercedes C Class
+                            ul.stars 
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car4.png", alt="car1")
+                        .car-name 
+                            p Ford Raptor 135X 
+                            ul.stars  
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car5.png", alt="car1")
+                        .car-name 
+                            p Bentley Continental Gt
+                            ul.stars  
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                    .car-box.col-lg-4.col-md-6.col-sm-12 
+                        img(src="image/car6.png", alt="car1")
+                        .car-name 
+                            p Aston Martin DB11
+                            ul.stars  
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                button.delete-rate حذف التقييم  
+        .ride-destination#ride-destination
+            .container 
+                .ride-title 
+                    h2 قد سياراتك واذهب في رحلتك باقصي درجات الراحة 
+                    p افضل السيارات 
+                .advantages 
+                    .row 
+                        .ad-box.col-lg-6.col-md-6.col-sm-12
+                            h4 مجموعة متنوعة من السيارات 
+                            p استكشف تشكيلتنا الواسعة من السيارات الجديدة والمستعملة المتوفرة في موقعنا. سواء كنت تبحث عن سيارة عائلية أو سيارة رياضية أو سيارة اقتصادية، فإننا نقدم مجموعة متنوعة من الخيارات لتلبية احتياجاتك وميزانيتك
+                        .ad-box.col-lg-6.col-md-6.col-sm-12
+                            h4 جربة شراء سيارة سهلة ومريحة
+                            p في موقعنا، نحرص على جعل عملية شراء السيارة سهلة ومريحة لك. مع واجهة مستخدم بسيطة ومرنة، يمكنك استعراض المخزون، والبحث عن الموديلات والميزات المفضلة لديك، والتواصل مع البائعين بسهولة. نحن نسعى لتوفير تجربة مرضية وممتعة من البداية حتى النهاية
+                        .ad-box.col-lg-6.col-md-6.col-sm-12
+                            h4 خدمة ما بعد البيع الممتازة وضمان الجودة
+                            p نحن نهتم بارتياحك بعد عملية الشراء أيضًا. لذا، نقدم خدمة ما بعد البيع الممتازة لضمان رضاك التام. سواء كان ذلك صيانة دورية، قطع غيار أصلية، أو استفسارات تقنية، فإن فريق الخدمة لدينا مستعد لمساعدتك في كل خطوة على طول الطريق. نحن ملتزمون بجودة المنتجات ورضا العملاء
+                        .ad-box.col-lg-6.col-md-6.col-sm-12
+                            h4 تمويل ميسر وخيارات دفع مرنة
+                            p نحن ندرك أهمية تمويل ملائم عند شراء سيارتك المفضلة. لذا، نقدم خيارات تمويل ميسرة ومرونة في الدفع تتناسب مع احتياجاتك المالية. سواء كنت تفضل التمويل البنكي أو القروض أو الخيارات الأخرى، يمكننا مساعدتك في الحصول على الحل المثالي الذي يجعل الشراء ممكنًا وميسرً
+                img(src="image/Group 12.png", alt="Group")
+        
+        .car-rent 
+            .car-rent-text
+                h3 هل تريد ايجار سيارة حديثة الان ؟
+                h5 انظر الي مختارات اليوم
+                button View More
+        .car-recomendation#car-recomendation
+            .container 
+                h2 افضل الترشيحات 
+                ul 
+                    li جديد
+                    li مستعمل
+                .row 
+                    .col-lg-4.col-md-6.col-sm-12
+                        .car-recomendation-box 
+                            .featured Featured  
+                            img(src="image/Tesla.png", alt="Tesla")
+                            span Used
+                            h4 Tesla Model 3 Standard Range plus
+                            p.price $56,690
+                            p.location Florida, USA
+                            .properties 
+                                ul 
+                                    li 
+                                        i.fa-solid.fa-calendar-days
+                                        p 2020
+                                    li 
+                                        i.fa-solid.fa-car
+                                        p دفع خلفي
+                                    li 
+                                        i.fa-solid.fa-gas-pump
+                                        p كهرباء
+                                    li 
+                                        i.fa-solid.fa-users
+                                        p 5
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p 12 تقييم
+                    .col-lg-4.col-md-6.col-sm-12
+                        .car-recomendation-box 
+                            .featured Featured  
+                            img(src="image/Ford.png", alt="Tesla")
+                            span New
+                            h4 Ford F-250 Super Duty
+                            p.price $82,098
+                            p.location Florida, USA
+                            .properties 
+                                ul 
+                                    li 
+                                        i.fa-solid.fa-calendar-days
+                                        p 2020
+                                    li 
+                                        i.fa-solid.fa-car
+                                        p دفع رباعي 
+                                    li 
+                                        i.fa-solid.fa-gas-pump
+                                        p زيت 
+                                    li 
+                                        i.fa-solid.fa-users
+                                        p 5
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p 12 تقييم
+                    .col-lg-4.col-md-6.col-sm-12
+                        .car-recomendation-box 
+                            img(src="image/Honda.png", alt="Tesla")
+                            span Used
+                            h4 Honda Pilot Touring 7-Passenger
+                            p.price $43,735
+                            p.location Caracas, Venezuela
+                            .properties 
+                                ul 
+                                    li 
+                                        i.fa-solid.fa-calendar-days
+                                        p 2021
+                                    li 
+                                        i.fa-solid.fa-car
+                                        p دفع رباعي 
+                                    li 
+                                        i.fa-solid.fa-gas-pump
+                                        p زيت 
+                                    li 
+                                        i.fa-solid.fa-users
+                                        p 7
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p 12 تقييم
+                h2 قارن بين سيارتين 
+                .row.comprisation#comprisation                   
+                    .col-lg-4.col-md-6.col-sm-12
+                        .car-recomendation-box 
+                            img(src="image/Honda.png", alt="Tesla")
+                            span Used
+                            h4 Honda Pilot Touring 7-Passenger
+                            p.price $43,735
+                            p.location Caracas, Venezuela
+                            .properties 
+                                ul 
+                                    li 
+                                        i.fa-solid.fa-calendar-days
+                                        p 2021
+                                    li 
+                                        i.fa-solid.fa-car
+                                        p دفع رباعي 
+                                    li 
+                                        i.fa-solid.fa-gas-pump
+                                        p زيت 
+                                    li 
+                                        i.fa-solid.fa-users
+                                        p 7
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p 12 تقييم
+                    .col-lg-4.col-md-6.col-sm-12
+                        .car-recomendation-box 
+                            .featured Featured  
+                            img(src="image/Tesla.png", alt="Tesla")
+                            span Used
+                            h4 Tesla Model 3 Standard Range plus
+                            p.price $56,690
+                            p.location Florida, USA
+                            .properties 
+                                ul 
+                                    li 
+                                        i.fa-solid.fa-calendar-days
+                                        p 2020
+                                    li 
+                                        i.fa-solid.fa-car
+                                        p دفع خلفي
+                                    li 
+                                        i.fa-solid.fa-gas-pump
+                                        p كهرباء
+                                    li 
+                                        i.fa-solid.fa-users
+                                        p 5
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p 12 تقييم
+                    button قارن الان
+        .support-part 
+            .container 
+                .support-part-title
+                    h2 نحن نعمل جاهدين وبتفانٍ لضمان تلبية كل احتياجات عملائنا الكرام، ونولي اهتمامًا عميقًا لجميع آرائهم وملاحظاتهم القيمة حول خدماتنا ومنتجاتنا. 
+                .row.mt-5
+                    .col-lg-3.col-md-6.col-sm-12
+                        .support-part-box
+                            h4 فروع معارض سمارت للسيارات المنتشرة
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p تعد معارض سمارت للسيارات متاحة في مواقع متعددة عبر البلاد، مما يسهل الوصول إليها وتلبية احتياجاتكم المتنوعة من السيارات. يُقدّم كل فرع تجربة فريدة وخدمة مميزة لعملائنا
+                            
+                    .col-lg-3.col-md-6.col-sm-12
+                        .support-part-box
+                            h4 تشكيلة واسعة من السيارات
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p تفتخر معارض سمارت بتقديم تشكيلة متنوعة من السيارات الجديدة والمستعملة، تتضمن مختلف العلامات التجارية والموديلات. سواء كنتم تبحثون عن سيارة أنيقة، عائلية، أو رياضية، ستجدون ما يناسبكم لدينا
+                    .col-lg-3.col-md-6.col-sm-12
+                        .support-part-box
+                            h4 جودة عالية وضمان موثوق
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p في معارضنا، نضمن لكم جودة عالية في كل سيارة نقدمها. نختار بعناية كل سيارة ونخضعها لفحوصات دقيقة للتأكد من أدائها الممتاز وحالتها الفنية. نقدم ضمانات موثوقة لضمان راحتك وثقتك في اختيارك
+                    .col-lg-3.col-md-6.col-sm-12
+                        .support-part-box
+                            h4 تمويل ميسّر وإجراءات سهلة
+                            ul.stars
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star
+                                li
+                                    i.fa-solid.fa-star 
+                            p ندرك أهمية تبسيط عملية شراء السيارة. لذلك، نقدم خيارات تمويل ميسّرة تتيح لك امتلاك السيارة بسهولة. نسهل الإجراءات ونساعدك في استكمال كل الأوراق المطلوبة بسلاسة لتجربة شراء ميسّرة وسريعة
+        div(class="banner-part")
+            .container
+                h3 هل تريد ايجار سيارة حديثة 
+                    span يمكنك رؤية عروضنا الان 
+        .contact-info#contact-info 
+            .container 
+                h2 معلومات التواصل
+                .contact-form 
+                    .overlay
+                    form 
+                        h3 تواصل الأن
+                        label(for="name") الاسم
+                        input(type="text" name="name" placeholder="الاسم بالكامل ")
+                        label(for="Email") الايميل 
+                        input(type="text" name="Email" placeholder="الايميل")
+                        label(for="phone") الهاتف 
+                        input(type="text" name="phone" placeholder="000-0000-0000")
+                        label(for="comment") تعليق
+                        textarea(name="comment", cols="30", rows="7" ) اترك رسالتك هنا 
+                        input(type="submit" value="ارسال")
+                    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27432.84125484047!2d13.208935445032733!3d32.88293521161909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a892c4c11c43d9%3A0x8d99d8947b5cec86!2z2LfYsdin2KjZhNiz2Iwg2YTZitio2YrYpw!5e1!3m2!1sar!2seg!4v1694196563276!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade")
+                .container  
+                    .our-services
+                        h3 خدماتنا
+                        ul 
+                            li 
+                                i.fa-solid.fa-car
+                                h4 شراء سيارة جديدة
+                            li 
+                                i.fa-solid.fa-car
+                                h4 شراء سيارة مستعملة
+                            li 
+                                i.fa-regular.fa-handshake
+                                h4 بيع سيارتك
+                .about-us#about-us 
+                    .container  
+                        h3 من نحن ؟
+                        .about-us-content
+                            .about-us-text 
+                                p نحن مجموعة معارض سمارت للسيارات الحديثة وتم تاسيس الشركة واول معرض في عام 1984 ميلادياً,هنا تجتمع رقة و اصالة الماضي مع تناسق وسرعة الحاضر و تكنولوجيا المستقبل ,نحن ايضا نقدم لك العديد من المزايا والتساهيل بالاضافة الي خدمات ما بعد البيع 
+                                ul 
+                                    li 
+                                        span.cars 150
+                                        | سيارة حديثة
+                                    li 
+                                        span.sold 40
+                                        | سيارة مباعة
+                                    li 
+                                        span.customer 38
+                                        | عميل سعيد
+                                    li 
+                                        span.prize 5
+                                        | جوائز
+                            .image-container 
+                                img(src="image/about-us -img.png", alt="about-us")
+        .car-gallary#car-gallary
+            .container
+                .car-gallary-text 
+                    h3 تصفح مجموعتنا المختارة
+                    P مرحبًا بك في عالم سمارت موتورز، حيث الأناقة تلتقي بالأداء نحن نفتخر بأن نقدم لكم مجموعة فريدة من السيارات الرائعة التي تجمع بين التصميم الجذاب والأداء الاستثنائي. يشكل معرضنا المكان الأمثل لاستكشاف عالم السيارات بكل تفاصيله
+                .car-gallary-container 
+                    img(src="image/gallary-image1.png", alt="gallary-image" class="active-image")
+                    img(src="image/gallary-image2.png", alt="gallary-image")
+                    img(src="image/gallary-image3.png", alt="gallary-image")
+                    img(src="image/gallary-image4.png", alt="gallary-image")
+                    img(src="image/gallary-image5.png", alt="gallary-image")
+                    img(src="image/gallary-image6.png", alt="gallary-image")
+                    img(src="image/gallary-image7.png", alt="gallary-image")
+                    img(src="image/gallary-image8.png", alt="gallary-image")
+                .car-gallary-btns 
+                    input(id="last", type="button", value="السابق")
+                    input(id="next",type="button", value="التالي")
+                    
+        .market 
+            .overlay
+            .container 
+                .first-row
+                    img(src="image/market-1.png", alt="market-1")
+                    img(src="image/market-2.png", alt="market-2")
+                    img(src="image/market-3.png", alt="market-3")
+                    img(src="image/market-4.png", alt="market-4")
+                    img(src="image/market-5.png", alt="market-5")
+                    img(src="image/market-6.png", alt="market-6")
+                .scond-row
+                    img(src="image/market-1.png", alt="market-1")
+                    img(src="image/market-2.png", alt="market-2")
+                    img(src="image/market-3.png", alt="market-3")
+                    img(src="image/market-4.png", alt="market-4")
+                    img(src="image/market-5.png", alt="market-5")
+                    img(src="image/market-6.png", alt="market-6")
+        footer 
+            .container 
+                h2
+                    |سمارت 
+                    span  موتورز 
+                section 
+                    ul 
+                        li
+                            a(href="#")  من نحن ؟
+                        li 
+                            a(href="#") الاسئلة الشائعة
+                        li
+                            a(href="#") تواصل معنا 
+                    ul 
+                        li
+                            a(href="#") خدمة العملاء
+                        li mohammedsalhyen5@gmail.com
+                        li 01110948994
+                    .address 
+                        h4 العنوان الرئيسي 
+                        p شارع جنة الفواكة -طرابلس -ليبيا 
+                        ul.dev-links
+                            li
+                                a(href="https://www.facebook.com/mohammed.abdelsalhyens")
+                                    i.fa-brands.fa-facebook
+                            li
+                                a(href="tel:+201110948994")
+                                    i.fa-brands.fa-whatsapp
+                            li
+                                a(href="https://www.linkedin.com/in/mohammed-abdelsalhyen-sherief-8976441b8")
+                                    i.fa-brands.fa-linkedin
+                            li
+                                a(href="https://instagram.com/mohammedabdelsalhye?igshid=MzNlNGNkZWQ4Mg==")
+                                    i.fa-brands.fa-instagram
+                p Mohammed Salhyen 2023,all Rights Reserved
+        script(src="JS/master.js")
